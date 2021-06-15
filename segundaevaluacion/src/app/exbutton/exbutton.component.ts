@@ -13,9 +13,6 @@ export class EXButtonComponent implements OnInit {
  
    ngOnInit(){}
  
-   justDolt(){
-     console.info('justDolt:Exercise 5 done!');
-   }
    callMe(){
     this.label='“Here button. I called you!”';
    }
